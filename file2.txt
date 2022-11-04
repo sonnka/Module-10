@@ -1,3 +1,6 @@
 name age
 alice 21
 ryan 30
+tom 90j
+sam
+ann 13

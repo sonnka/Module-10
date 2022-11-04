@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ReadFile {
+
     public static List<String> read(String file) {
         try (FileReader fileReader = new FileReader(file)) {
             char[] buffer = new char[1256];
@@ -31,9 +32,5 @@ public class ReadFile {
             newArray.addAll(Arrays.asList(tempArray));
         }
         return newArray;
-    }
-
-    private ReadFile(){
-
     }
 }

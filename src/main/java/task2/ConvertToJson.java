@@ -5,10 +5,10 @@ import com.google.gson.GsonBuilder;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
 public class ConvertToJson {
-    public static void convert(ArrayList<User> list){
+    public static void convert(List<User> list){
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             String json = gson.toJson(list);
             System.out.println(json);
